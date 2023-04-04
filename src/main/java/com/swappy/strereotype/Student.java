@@ -3,7 +3,8 @@ package com.swappy.strereotype;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
+@Component("st")
 public class Student {
 
 	@Value("Swapnil Lawande")

@@ -8,7 +8,7 @@ public class Test {
 	public static void main(String[] args) {
 		
 		ApplicationContext context = new ClassPathXmlApplicationContext("com/swappy/strereotype/config.xml");
-		Student student = context.getBean("student",Student.class);
+		Student student = context.getBean("st",Student.class);
 		
 		System.out.println(student.toString());
 	}
